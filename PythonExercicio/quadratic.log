@@ -1,0 +1,7 @@
+INFO 2019-06-26 19:55:20,296 - quadratic_formula(1, 0, -4)
+DEBUG 2019-06-26 19:55:20,296 - # Compute the discriminant
+DEBUG 2019-06-26 19:55:20,296 - # Compute the two roots
+DEBUG 2019-06-26 19:55:20,296 - # Return the roots
+INFO 2019-06-26 19:55:20,296 - quadratic_formula(1, 0, 1)
+DEBUG 2019-06-26 19:55:20,296 - # Compute the discriminant
+DEBUG 2019-06-26 19:55:20,296 - # Compute the two roots

@@ -1,0 +1,78 @@
+# Define the number of columns and rows
+# Define the spacing between children in pixels
+
+<Label1@Label>:
+    font_size: 15
+    size: 80, 30
+    color: 0, 1, 1, 1
+
+<Label2@Label>:
+    font_size: 30
+    size: 100, 40
+    color: 1, 1, 1, 1
+
+<Label3@Label>:
+    font_size: 40
+    size: 50, 50
+    color: 1, 1, 0, 1
+
+
+<Placar>:
+    Label:
+        font_size: 30
+        size: 100, 60
+        pos: (root.right - self.width) / 2, root.top - self.height
+        text: "FUTEBOL MANAGER"
+
+    Label1:
+        pos: (root.right - self.width) * 10 /32, root.top * 26 / 32
+        text: "07 de outubro"
+
+    Label1:
+        pos: (root.right - self.width) * 22 /32, root.top * 26 / 32
+        text: "Maracanã"
+
+    Label2:
+        pos: (root.right - self.width) * 7 /32, root.top * 22 / 32
+        text: "Brasil de Pelotas"
+
+    Label3:
+        pos: (root.right - self.width) * 14 /32, root.top * 22 / 32
+        text: "2"
+
+    Label3:
+        pos: (root.right - self.width) * 16 /32, root.top * 22 / 32
+        text: "x"
+
+    Label3:
+        pos: (root.right - self.width) * 18 /32, root.top * 22 / 32
+        text: "1"
+
+    Label2:
+        pos: (root.right - self.width) * 25 /32, root.top * 22 / 32
+        text: "Sampaio Correa"
+
+<GridLayout>:
+    rows: 2
+    spacing: 10
+
+    canvas:
+        Rectangle:
+            pos: 0, root.top * 29 / 32
+            size: self.width, 4
+
+        Rectangle:
+            pos: 0, root.top * 19 / 32
+            size: self.width, 4
+
+        Rectangle:
+            pos: 20,root.top - 170
+            size: 70,70
+            source: 'vasco.png'
+
+        Rectangle:
+            pos: self.width - 90,root.top - 170
+            size: 70,70
+            source: 'fluminense.png'
+
+    Placar:

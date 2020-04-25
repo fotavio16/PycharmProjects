@@ -1,0 +1,85 @@
+#:kivy 1.0.9
+
+<Label1@Label>:
+    font_size: 15
+    size: 80, 30
+    color: 0, 1, 1, 1
+
+<Label2@Label>:
+    font_size: 30
+    size: 100, 40
+    color: 1, 1, 1, 1
+
+<Label3@Label>:
+    font_size: 40
+    size: 50, 50
+    color: 1, 1, 0, 1
+
+<Placar>:
+    canvas:
+        Rectangle:
+            pos: 0, root.top * 29 / 32
+            size: self.width, 4
+
+        Rectangle:
+            pos: 0, root.top * 19 / 32
+            size: self.width, 4
+
+        Rectangle:
+            pos: 20,root.top - 170
+            size: 70,70
+            source: root.escudoA
+
+        Rectangle:
+            pos: self.width - 90,root.top - 170
+            size: 70,70
+            source: root.escudoB
+
+    Label:
+        font_size: 30
+        size: 100, 60
+        pos: (root.right - self.width) / 2, root.top - self.height
+        text: "FUTEBOL MANAGER"
+
+    Label1:
+        pos: (root.right - self.width) * 10 /32, root.top * 26 / 32
+        text: root.hoje
+
+    Label1:
+        pos: (root.right - self.width) * 22 /32, root.top * 26 / 32
+        text: root.estadio
+
+    Label2:
+        pos: (root.right - self.width) * 7 /32, root.top * 22 / 32
+        text: root.equipeA
+
+    Label3:
+        id: scoreA
+        pos: (root.right - self.width) * 14 /32, root.top * 22 / 32
+        text: root.scoreA
+
+    Label3:
+        pos: (root.right - self.width) * 16 /32, root.top * 22 / 32
+        text: "x"
+
+    Label3:
+        id: scoreB
+        pos: (root.right - self.width) * 18 /32, root.top * 22 / 32
+        text: root.scoreB
+
+    Label2:
+        pos: (root.right - self.width) * 25 /32, root.top * 22 / 32
+        text: root.equipeB
+
+    Label2:
+        pos: (root.right - self.width) * 16 /32, root.top * 20 / 32
+        text: root.time
+
+    Label2:
+        pos: (root.right - self.width) * 19 /32, root.top * 20 / 32
+        text: "1T"
+
+<Manager>:
+
+
+

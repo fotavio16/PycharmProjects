@@ -1,0 +1,32 @@
+<MyButton@Button>:
+    size: 100, 50
+    color: .5, .7, .6, 1
+    font_size: 32
+
+<MyLabel@Label>:
+    size: 80, 40
+    color: 0, 1, 1, 1
+    font_size: 20
+
+<MyWidget>:
+    MyButton:
+        text: 'Hello'
+        pos: root.x, root.top - self.height
+    MyButton:
+        text: 'World!'
+        pos: root.right - self.width, root.y
+    MyButton:
+        text: 'Center'
+        pos: (root.right - self.width) / 2, (root.top - self.height) / 2
+    MyButton:
+        text: 'X - Y'
+        pos: root.x, root.y
+    MyButton:
+        text: 'TopLef'
+        pos: root.right - self.width, root.top - self.height
+    MyButton:
+        text: '10x06'
+        pos: root.right * 10 /16, root.top * 6 / 16
+    MyLabel:
+        text: 'Cyan'
+        pos: root.right * 3 /16, root.top * 11 / 16

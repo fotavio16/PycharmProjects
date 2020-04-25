@@ -1,0 +1,23 @@
+# You can set default attributes that are shared by
+# other widgets
+
+# color is RGBA as a percent of 255 and alpha
+# Color is the text color
+# background_normal and background_down are either
+# white with '' or can be set to a png
+# background_color tints whatever the background is
+
+# Position is x and y from the bottom left hand corner
+# You can define the position based on the changing
+# window sizes with root.x being the left most side
+# and root.y being the bottom
+<CustomWidget>:
+    BoxLayout:
+            id: _tool_box
+            size_hint: None,None
+            width: 100
+            Label:
+                font_size: 30
+                center_x: root.width / 2
+                top: root.top - 10
+                text: "FUTEBOL MANAGER"

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../DeepLearning/.idea/DeepLearning.iml" filepath="$PROJECT_DIR$/../DeepLearning/.idea/DeepLearning.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Kivy/.idea/Kivy.iml" filepath="$PROJECT_DIR$/../Kivy/.idea/Kivy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PythonExercicio.iml" filepath="$PROJECT_DIR$/.idea/PythonExercicio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Testes com Pygame/.idea/Testes com Pygame.iml" filepath="$PROJECT_DIR$/../Testes com Pygame/.idea/Testes com Pygame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KidsCan/tilemap/part 01/.idea/part 01.iml" filepath="$PROJECT_DIR$/../KidsCan/tilemap/part 01/.idea/part 01.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../KidsCan/tilemap/.idea/tilemap.iml" filepath="$PROJECT_DIR$/../KidsCan/tilemap/.idea/tilemap.iml" />
+    </modules>
+  </component>
+</project>

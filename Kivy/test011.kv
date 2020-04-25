@@ -1,0 +1,38 @@
+# File name: test011.kv
+#:kivy 1.7.0
+<Placar>:
+    AnchorLayout:
+        anchor_x: 'center'
+        anchor_y: 'top'
+        BoxLayout:
+            id: _tool_box
+            size_hint: None,None
+            width: 100
+            Label:
+                font_size: 30
+                center_x: root.width / 2
+                top: root.top - 10
+                text: "FUTEBOL MANAGER"
+
+    AnchorLayout:
+        anchor_x: 'center'
+        anchor_y: 'top'
+        BoxLayout:
+            orientation: 'vertical'
+            Label:
+                font_size: 30
+                center_x: root.width * 4 / 16
+                top: root.top - 50
+                text: "Brasil de Pelotas"
+
+            Label:
+                font_size: 30
+                center_x: root.width * 12 / 16
+                top: root.top - 50
+                text: "Sampaio Correa"
+
+            Label:
+                font_size: 40
+                center_x: root.width / 2
+                top: root.top - 50
+                text: "x"

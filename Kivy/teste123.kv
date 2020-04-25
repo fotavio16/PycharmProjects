@@ -1,0 +1,13 @@
+#:kivy 1.0.9
+
+<Incrementador>:
+    orientation:'vertical'
+    size: root.size
+    Button:
+        text:'Incrementar'
+        font_size:30
+        on_release: root.change_text()
+    Label:
+        id:label
+        text: root.random_number
+        font_size:30
