@@ -4,7 +4,7 @@ sprite_image_filename = 'fugu.png'
 import pygame
 from pygame.locals import *
 from sys import exit
-from gameobjects import Vector2
+from gameobjects.gameobjects import Vector2
 
 pygame.init()
 
@@ -17,6 +17,9 @@ clock = pygame.time.Clock()
 
 position = Vector2(100.0, 100.0)
 speed = 250.
+step = Vector2()
+cont = 0
+inc = 0
 heading = Vector2()
 
 while True:
@@ -27,7 +30,9 @@ while True:
         if event.type == MOUSEBUTTONDOWN:
             destination = Vector2(*event.pos) - Vector2(*sprite.get_size()) / 2.
             heading = Vector2.from_points(position, destination)
-            heading.normalize()
+            step = heading / speed
+            inc = 1
+            #heading.normalize()
     
     screen.blit(background, (0,0))
     a, b = position
@@ -39,16 +44,20 @@ while True:
     destination = Vector2( *pygame.mouse.get_pos() ) - Vector2( *sprite.get_size() )/2
     vector_to_mouse = Vector2.from_points(position, destination)
     vector_to_mouse.normalize()
-    '''
+    
     heading = heading + (vector_to_mouse *.6)    
     
     position += heading * time_passed_seconds
     '''
 
-    distance_moved = time_passed_seconds * speed
-    position += heading * distance_moved
-    '''
-    print(f'Position: {position}')
+    #distance_moved = time_passed_seconds * speed
+    #position += heading * distance_moved
+    position += step
+    cont += inc
+    if cont > speed:
+        step = Vector2()
+        cont = 0
+        inc = 0
 
     pygame.display.update()
     

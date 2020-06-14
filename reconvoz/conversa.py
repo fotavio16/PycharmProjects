@@ -68,8 +68,8 @@ def ouvir_mic():
 
 #falar("Olá. Diga alguma coisa.")
 
-#ouvir_mic()
+ouvir_mic()
 
-get_audio_file()
+#get_audio_file()
 
 

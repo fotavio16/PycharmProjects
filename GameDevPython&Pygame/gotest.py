@@ -1,4 +1,5 @@
-from gameobjects import Vector2
+from gameobjects.gameobjects import Vector2
+#from gameobjects.vector2 import Vector2
 
 A = (10.0, 20.0)
 B = (30.0, 35.0)

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="PYTHON_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$" />
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module" module-name="GameDevPython&amp;Pygame" />
+    <orderEntry type="module" module-name="NaturalLanguage" />
+    <orderEntry type="module" module-name="Testes com Pygame" />
+    <orderEntry type="module" module-name="OpenCV" />
+    <orderEntry type="module" module-name="UDEMY" />
+    <orderEntry type="module" module-name="reconvoz" />
+  </component>
+  <component name="TestRunnerService">
+    <option name="PROJECT_TEST_RUNNER" value="Unittests" />
+  </component>
+</module>

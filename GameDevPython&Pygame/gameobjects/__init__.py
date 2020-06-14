@@ -6,6 +6,7 @@ __all__ = [
 'matrix44',
 'color',
 'gametime',
+'gameobjects',
 'grid'
 ]
 

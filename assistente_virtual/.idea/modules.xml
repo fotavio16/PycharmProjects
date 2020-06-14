@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../GameDevPython&amp;Pygame/.idea/GameDevPython&amp;Pygame.iml" filepath="$PROJECT_DIR$/../GameDevPython&amp;Pygame/.idea/GameDevPython&amp;Pygame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../NaturalLanguage/.idea/NaturalLanguage.iml" filepath="$PROJECT_DIR$/../NaturalLanguage/.idea/NaturalLanguage.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../OpenCV/.idea/OpenCV.iml" filepath="$PROJECT_DIR$/../OpenCV/.idea/OpenCV.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Testes com Pygame/.idea/Testes com Pygame.iml" filepath="$PROJECT_DIR$/../Testes com Pygame/.idea/Testes com Pygame.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../UDEMY/.idea/UDEMY.iml" filepath="$PROJECT_DIR$/../UDEMY/.idea/UDEMY.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/assistente_virtual.iml" filepath="$PROJECT_DIR$/.idea/assistente_virtual.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../reconvoz/.idea/reconvoz.iml" filepath="$PROJECT_DIR$/../reconvoz/.idea/reconvoz.iml" />
+    </modules>
+  </component>
+</project>
